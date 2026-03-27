@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <label for="fullName">Full Name :</label>
+        <input
+          type="text"
+          id="fullName"
+          name="fullName"
+          placeholder="Enter your Name"
+        />
+      </div>
+
+      <input type="password" placeholder="password" />
+      <br />
+      <input
+        type="email"
+        placeholder="email"
+        name="email"
+        value="myemail@gmail.com"
+      />
+      <br />
+      <input type="number" placeholder="number" id="num" />
+      <br />
+      <input type="date" />
+      <br />
+      <input type="time" />
+    </header>
+    <br />
+    <input type="datetime-local" />
+    <br />
+    <input type="range" name="myrange" />
+    <br />
+    <input type="color" />
+    <br />
+    <input type="url" placeholder="URL" />
+    <br />
+
+    <input type="file" accept="" />
+    <br />
+    <input type="submit" value="Submit" />
+
+    <select name="kuchbhi" id="kuchbhi">
+      <option value="">--Select Kuch Bhi--</option>
+      <option value="abc">abc</option>
+      <option value="def">def</option>
+      <option value="ghi">ghi</option>
+      <option value="jkl">jkl</option>
+      <option value="mno">mno</option>
+      <option value="pqr">pqr</option>
+      <option value="stv">stv</option>
+    </select>
+
+    <br />
+    <hr />
+    <select name="courses" id="course">
+      <option value="">--Select Course--</option>
+      <optgroup label="B.tech">
+        <option value="cse">CSE</option>
+        <option value="ece">ECE</option>
+        <option value="civil">CIVIL</option>
+        <option value="mech">Mechanical</option>
+      </optgroup>
+      <optgroup label="BCA">
+        <option value="cse">CSE</option>
+        <option value="ece">ECE</option>
+        <option value="civil">CIVIL</option>
+        <option value="mech">Mechanical</option>
+      </optgroup>
+    </select>
+    <hr />
+
+    <textarea
+      name="address"
+      id="address"
+      placeholder="add your address"
+    ></textarea>
+
+    <hr />
+
+    <button type="submit">abcd</button>
+
+    <br>
+    <br>
+
+
+    <fieldset>
+        <legend>this is from</legend>
+      <div>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Gender" id="male" value="male" />
+        <span>Male</span>
+        <input type="radio" name="Gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="other" value="other" />
+        <span>Other</span>
+      </div>
+
+      <div>
+        <label for="Gender">Gender</label>
+        <input type="checkbox" name="Gender" id="male" value="male" />
+        <span>Male</span>
+        <input type="checkbox" name="Gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <input type="checkbox" name="Gender" id="other" value="other" />
+        <span>Other</span>
+      </div>
+    </fieldset>
+  </body>
+</html>
