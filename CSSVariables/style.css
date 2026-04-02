@@ -1,0 +1,52 @@
+:root {
+  --main-color: rgb(119, 0, 255);
+  --sub-color: skyblue;
+  --text-color: green;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+h3 {
+  color: skyblue;
+}
+
+p {
+  /* --somevariable: green;
+  color: var(--somevariable); */
+
+  color: green;
+}
+
+th {
+  color: var(--main-color);
+}
+
+td {
+  color: var(--somevariable);
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+#login {
+  background-color: var(--main-color);
+}
+
+#register {
+  background-color: skyblue;
+}
+
+table {
+  /* border: 1px solid #000; */
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+}
