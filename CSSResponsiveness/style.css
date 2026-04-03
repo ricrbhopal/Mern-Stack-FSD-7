@@ -52,6 +52,7 @@ div {
 }
 
 #rightPart {
+    background-color: rgb(249, 142, 142);
   height: 85vh;
   padding: 20px;
   width: 30%;
@@ -65,14 +66,26 @@ div {
   #leftPart {
     grid-template-columns: auto auto auto;
   }
+
+  #rightPart{
+    background-color: rgb(203, 250, 134);
+  }
 }
 @media screen and (max-width: 760px) {
   #leftPart {
     grid-template-columns: auto auto;
   }
+
+  #rightPart{
+    background-color: rgb(156, 156, 247);
+  }
 }
 @media screen and (max-width: 420px) {
   #leftPart {
     grid-template-columns: auto;
+  }
+
+  #rightPart{
+    background-color: rgb(244, 212, 153)
   }
 }
