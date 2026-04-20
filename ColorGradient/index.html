@@ -9,11 +9,26 @@
         border: 1px solid #000;
         width: 600px;
         height: 500px;
-        background: radial-gradient(red,yellow, GREEN)
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: linear-gradient(180deg,red,yellow,green); */
+        /* background: radial-gradient(red,yellow,green); */
+        background: url("./flower.webp");
+        background-size: cover;
+
+        span{
+            font-size: xx-large;
+            font-weight: bold;
+        }
       }
     </style>
   </head>
   <body>
-    <div id="abcd">hello World</div>
+    <div id="abcd">
+      <span> hello World </span>
+    </div>
+
+    
   </body>
 </html>
