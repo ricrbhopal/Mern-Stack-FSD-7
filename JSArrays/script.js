@@ -64,3 +64,10 @@ console.log("for each loop");
 ar.forEach((element) => {
   console.log(element);
 });
+
+let a = "Bala Sai";
+
+
+for (var i = 0; i < 7; i++) {
+  console.log(a[i]);
+}
