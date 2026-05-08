@@ -21,9 +21,13 @@ document.querySelector("form").addEventListener("submit", (event) => {
 document.querySelector("form").addEventListener("reset", (event) => {
   event.preventDefault();
 
-    confirm("Are Your Sure") && window.location.reload();
+  confirm("Are Your Sure") && window.location.reload();
+  //   if (confirm("Are your Sure")) {
+  //     window.location.reload();
+  //   }
+});
 
-//   if (confirm("Are your Sure")) {
-//     window.location.reload();
-//   }
+document.addEventListener("keydown", (event) => {
+  let keyPress = event.key;
+  keyPress === "Escape" && window.location.reload();
 });
