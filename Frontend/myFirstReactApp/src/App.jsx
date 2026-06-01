@@ -1,22 +1,29 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Product from "./pages/Product";
+import ContactUs from "./pages/ContactUs";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <div id="abcd">My first react app</div>
+      <BrowserRouter>
+        <Header />
 
-      <p className="bg-success">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-        nostrum provident error dolorem laborum illum perspiciatis dignissimos
-        cupiditate, nisi quod expedita, modi molestias. Reiciendis voluptatibus
-        quod beatae animi odio ut.
-      </p>
-
-      <button>click Here</button>
-
-      <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
