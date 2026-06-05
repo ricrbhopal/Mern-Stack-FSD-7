@@ -9,7 +9,6 @@ let b = true;
 
 const pi = 3.14;
 
-
 console.log("task complete");
 
 let x = 10;
@@ -18,7 +17,18 @@ let y = "10";
 console.log(typeof x);
 console.log(typeof y);
 
-
 console.log(x == y);
 
 console.log(x === y);
+
+let ar = [1, 2, 3, 4];
+
+console.log(ar);
+
+ar.push(5);
+
+console.log(ar);
+
+ar = 10;
+
+console.log(ar);
