@@ -12,4 +12,4 @@ export default Contact
 
 
 
-//  http://makeup-api.herokuapp.com/api/v1/products
+//  http://makeup-api.herokuapp.com/api/v1/products.json
